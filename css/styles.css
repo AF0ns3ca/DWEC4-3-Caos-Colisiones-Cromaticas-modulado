@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+    height: inherit;
+}
+
+h1{
+    font-size: 2rem;
+    letter-spacing: -1px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 2px white;
+    padding: 20px;
+    opacity: 0.5;
+}
+.pause{
+    font-size: 3rem;
+    letter-spacing: -1px;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 2px white;
+    padding: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.play{
+    font-size: 3rem;
+    letter-spacing: -1px;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 2px white;
+    padding: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
